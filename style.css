@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    background-color: rgb(182, 194, 216);
+}
 
 .list {
     display: flex;
@@ -40,7 +45,63 @@
     transition: 1s all ease;
 }
 
+/* card unit */
 
+.all-card{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.card-detail{
+    width: 350px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 12px 13px;
+   
+
+
+}
+.card-detail img{
+    width: 100%;
+}
+.card-detail h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700px;
+    margin: 20px 0;
+    color: cornflowerblue;
+}
+.card-detail span{
+    color: tomato;
+    font-family: cursive;
+}
+.card-detail p{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 400px;
+    color: black;
+}
+
+.btn button{
+    padding: 10px 15px;
+    background-color: plum;
+    color: black;
+    border: none;
+border-radius: 30px;
+cursor: pointer;
+transition: 5s all ease;
+margin-top: 8px;
+
+
+}
+.btn button:hover{
+    background-color: tomato;
+    color: white;
+    transition: .5s all ease;
+}
 
 
 /* --------------responsibe------------------*/
@@ -88,8 +149,28 @@
 
 
         }
-
-
+        /* card sector */
+.container{
+    width: 100%;
+}
+        .all-card{
+           
+            display: flex;
+            flex-direction: column;
+            background-color: aqua;
+           
+            
+        }
+        
+.card-detail{
+    width: 280px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.card-detail img{
+    width: 100%;
+}
     }
 
 
